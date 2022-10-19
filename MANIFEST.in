@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include printechs_website *.css
+recursive-include printechs_website *.csv
+recursive-include printechs_website *.html
+recursive-include printechs_website *.ico
+recursive-include printechs_website *.js
+recursive-include printechs_website *.json
+recursive-include printechs_website *.md
+recursive-include printechs_website *.png
+recursive-include printechs_website *.py
+recursive-include printechs_website *.svg
+recursive-include printechs_website *.txt
+recursive-exclude printechs_website *.pyc
